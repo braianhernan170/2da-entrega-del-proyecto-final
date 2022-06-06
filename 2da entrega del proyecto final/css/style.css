@@ -1,0 +1,36 @@
+.carousel-inner {
+    max-height: 100rem;
+}
+
+.conterner {
+    gap: 30px;
+}
+.pro {
+    color: white;
+    font-size: 2rem;
+    animation: move 1.5s ease-in-out infinite;
+}
+@keyframes move {
+    0%{
+        transform: translate(-30% 0);
+    }
+    50% {
+        text-shadow:  0 10px gray;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
